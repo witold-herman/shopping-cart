@@ -1,0 +1,136 @@
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cart-container2 {
+    float: left;
+    width: 60%;
+    margin-top: 10%;
+    min-width: 420px;
+    color: #7e805c;
+}
+
+.cart-header {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.cart {
+    width: 100%;
+    max-width: 2000px;
+    margin: 29px auto 0;
+    position: relative;
+    border: 1px solid #e5e5e5;
+    box-shadow: 2px 2px 2px 0 #e5e5e5;
+}
+
+.cart-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.cart-table th {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: left;
+}
+
+.cart-table tr td {
+    border-top: 2px solid #e5e5e5;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 90%;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    min-height: 50px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    flex-direction: row-reverse;
+}
+
+.button {
+    border: none;
+    padding: 7px;
+    color: white;
+    max-height: 35px;
+    font-size: 14px;
+    background-color: black;
+    font-weight: bold;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.col-1 {
+    width: 5%;
+}
+
+.col-2 {
+    width: 30%;
+}
+
+.col-3 {
+    width: 20%;
+}
+
+.col-4 {
+    width: 20%;
+}
+
+.col-5 {
+    width: 25%;
+}
+
+.spinner-button {
+    border: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #7e805c;
+    font-size: 16px;
+}
+
+.spinner-button:hover {
+    cursor: pointer;
+}
+
+.spinner-output {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #948f8f;
+    border-right: 1px solid #757171;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.spinner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+
+.empty-cart {
+    font-size: 42px;
+    text-align: center;
+    color: #7e805c;
+}
+
+
+

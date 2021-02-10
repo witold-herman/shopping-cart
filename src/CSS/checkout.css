@@ -1,0 +1,118 @@
+
+.checkout-container {
+    float: left;
+    margin-left: 2%;
+    width: 22%;
+    margin-top: 10%;
+    min-width: 145px;
+}
+
+.checkout-header {
+    height: 50px;
+    margin-top: 7%;
+    border: 2px solid #e5e5e5 ;
+    background-color: #f2f2f2;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.left-half {
+    padding-left: 10px;
+}
+
+.left-half-checkout {
+    padding-left: 10px;
+    color: #7e805c;
+}
+
+.right-half {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.totals-container {
+    border: 2px solid #e5e5e5;
+    margin-top: 15px;
+    width: 100%;
+    background-color: rgba(242, 242, 242, .7);
+}
+
+.totals {
+    border-bottom: 2px solid #e5e5e5;
+    background-color: #f2f2f2 !important;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#totals {
+    padding-left: 10px;
+}
+
+.checkout-totals {
+    margin: 8px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.checkout-grand-total {
+    margin: 8px auto;
+    padding-top: 8px;
+    max-width: 80%;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.top-button-holder {
+    display: flex;
+    width: 100%;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    overflow-wrap: break-word;
+}
+
+.button-proceed-top {
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 60%;
+    min-height: 100%;
+    padding: 8px;
+    min-width: 145px;
+}
+
+.button-proceed-top:hover {
+    cursor: pointer;
+}
+
+.bottom-button-holder {
+    text-align: center;
+}
+
+.button-proceed-bottom {
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 80%;
+    min-height: 44px;
+    margin: 16px auto 32px;
+    font-size: 14px;
+}
+
+.button-proceed-bottom:hover {
+    cursor: pointer;
+}
